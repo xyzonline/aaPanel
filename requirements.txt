@@ -1,5 +1,5 @@
 bcrypt==3.2.0
-certifi==2021.10.8
+certifi==2024.7.4
 cffi==1.15.0
 chardet==4.0.0
 charset-normalizer==2.0.12
@@ -52,3 +52,4 @@ wrapt==1.14.0
 wsproto==1.1.0
 gevent
 pyyaml
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
